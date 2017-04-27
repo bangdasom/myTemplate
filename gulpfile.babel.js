@@ -80,7 +80,7 @@ gulp.task('clean', () => {
 
 gulp.task('watch', () => {
     gulp.watch(SRC.JS, ['js']);
-    gulp.watch(SRC.CSS, ['css']);
+    gulp.watch(SRC.SASS, ['sass']);
     gulp.watch(SRC.HTML, ['html']);
     gulp.watch(SRC.IMAGES, ['images']);
     gulp.watch(DIR.SRC+'/index.html', ['index']);
